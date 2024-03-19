@@ -1,0 +1,51 @@
+<footer>
+  Pulsa <kbd>Ctrl</kbd> + <kbd>K</kbd> para abrir la paleta de comandos.
+</footer>
+
+<ninja-keys placeholder="Buscar comando" hideBreadcrumbs></ninja-keys>
+
+<script>
+  import "ninja-keys";
+
+  const ninja = document.querySelector("ninja-keys");
+
+  if (ninja != null) {
+    ninja.data = [
+      {
+        id: "print",
+        title: "Imprimir",
+        icon: `<svg style="margin-right: 8px" xmlns="http://www.w3.org/2000/svg"  width="16"  height="16"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-printer"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M17 17h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2" /><path d="M17 9v-4a2 2 0 0 0 -2 -2h-6a2 2 0 0 0 -2 2v4" /><path d="M7 13m0 2a2 2 0 0 1 2 -2h6a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2z" /></svg>`,
+        hotkey: "ctrl+P",
+        section: "Acciones",
+        handler: () => {
+          window.print();
+        },
+      },
+    ];
+  }
+</script>
+
+<style>
+  @media print {
+    ninja-keys {
+      display: none !important;
+    }
+  }
+  footer {
+    background: #fdfdfd;
+    border-top: 1px solid #eee;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-block: 16px;
+    text-align: center;
+    font-size: 0.85rem;
+  }
+
+  kbd {
+    background: #eee;
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-size: 12px;
+  }
+</style>
