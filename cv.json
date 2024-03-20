@@ -1,29 +1,28 @@
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
-    "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
+    "name": "Leandro Eraso",
+    "label": "Fronted Developer incursionandose en el mundo de la programación.",
     "image": "/photo.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
-    "url": "https://midu.dev",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "email": "leaeraso@gmial.com",
+    "phone": "+54 92613904416",
+    "summary": "Me llamo Leandro Eraso. Tengo 21 años. Me gusta el fútbol, el gimnasio y los videojuegos. Siempre quise aprender a programar pero nunca me hice el tiempo. Ahora que he aprendido quiero poder desarrollarme como profesional en esta área. Actualmente estoy en tercer año de Ingeniería en Sistemas de información en la UTN, próximo a ser Licenciado en Sistemas e Ingeniero en un futuro cercano. Empece a estudiar programación en el año 2023, aprendiendo Java y luego me pase al lado del Frontend aprendiendo HTML, CSS y JavaScript.",
     "location": {
-      "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
-      "countryCode": "ES",
-      "region": "España"
+      "address": "Los Tamarindos",
+      "postalCode": "5501",
+      "city": "Mendoza",
+      "countryCode": "AR",
+      "region": "Argentina"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
+        "username": "leaeraso",
+        "url": "www.linkedin.com/in/leaeraso"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "Leaeraso",
+        "url": "https://github.com/Leaeraso"
       }
     ]
   },
@@ -68,12 +67,12 @@
   ],
   "education": [
     {
-      "institution": "Universitat Oberta de Catalunya",
+      "institution": "Universidad Tecnológica Nacional",
       "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Ingeniero de Software",
-      "studyType": "Bachelor",
-      "startDate": "2003-01-01",
-      "endDate": "2009-01-01",
+      "area": "Ingeniero en Sistemas de información.",
+      "studyType": "Titulo Universitario",
+      "startDate": "2021",
+      "endDate": "Actualmente",
       "score": "4.0",
       "courses": ["DB1101 - Basic SQL"]
     }
@@ -140,21 +139,6 @@
       ]
     },
     {
-      "name": "Node",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
-    },
-    {
-      "name": "MySQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos",
-        "SQL",
-        "Almacenamiento de Datos",
-        "Backend"
-      ]
-    },
-    {
       "name": "Git",
       "level": "Avanzado",
       "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
@@ -168,22 +152,6 @@
         "Código Fuente",
         "Git"
       ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "React Framework",
-        "SSR",
-        "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
     }
   ],
   "languages": [
@@ -210,51 +178,18 @@
   ],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "Relanding Tesla",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
-      "highlights": ["Elige tu propia aventura", "En desarrollo"],
-      "url": "https://mars.codes"
+      "description": "Recreación de la página oficial de Tesla.",
+      "highlights": ["Elige tu propia aventura", "Relanding"],
+      "url": "https://teslarelanding.netlify.app/"
     },
     {
-      "name": "AdventJS",
+      "name": "Portfolio",
       "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-      "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
-      ],
+      "description": "Portfolio personal hecho con HTML, CSS, Tailwind y Astro.",
+      "highlights": ["Buenos Estilos", "Multidioma", "JavaScript & TypeScript"],
       "url": "https://adventjs.dev"
-    },
-    {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": ["+2000 usuarios activos", "Retos para cualquier lenguaje"],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": ["100k visitas al mes", "Desarrollado por la comunidad"],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": ["100% gratuito", "+500 soluciones de la comunidad"],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": ["+15k tickets repartidos", "+50k espectadores en directo"],
-      "url": "https://miduconf.com"
     }
   ]
 }
