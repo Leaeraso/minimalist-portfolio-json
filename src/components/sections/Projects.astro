@@ -2,12 +2,20 @@
 import Section from "../Section.astro";
 
 import { projects } from "@cv";
+
+import { getI18N } from "../../i18n/";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
 ---
 
-<Section title="Projects">
+<Section title={i18n.projectsTitle}>
   <ul>
     {
-      projects.map(({ url, description, name, isActive, highlights }) => {
+      projects.map(({ url, descriptions, name, isActive, highlights }) => {
+        const description = descriptions[currentLocale];
+        const highlight = highlights[currentLocale];
+
         return (
           <li>
             <article>
@@ -26,9 +34,9 @@ import { projects } from "@cv";
                 <p>{description}</p>
               </header>
               <footer>
-                {highlights.map((highlight) => {
-                  return <span>{highlight}</span>;
-                })}
+                {highlight.map((item, index) => (
+                  <span key={index}>{item}</span>
+                ))}
               </footer>
             </article>
           </li>

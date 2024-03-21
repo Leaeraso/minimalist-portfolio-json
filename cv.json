@@ -180,15 +180,27 @@
     {
       "name": "Relanding Tesla",
       "isActive": true,
-      "description": "Recreación de la página oficial de Tesla.",
-      "highlights": ["Elige tu propia aventura", "Relanding"],
+      "descriptions": {
+        "es": "Recreación de la página oficial de Tesla.",
+        "en": "Recreation of the official Tesla page."
+      },
+      "highlights": {
+        "es": "['Elige tu propia aventura', 'Relanding']",
+        "en": "['Choose your own adventure', 'Relanding']"
+      },
       "url": "https://teslarelanding.netlify.app/"
     },
     {
       "name": "Portfolio",
       "isActive": true,
-      "description": "Portfolio personal hecho con HTML, CSS, Tailwind y Astro.",
-      "highlights": ["Buenos Estilos", "Multidioma", "JavaScript & TypeScript"],
+      "descriptions": {
+        "es": "Portfolio personal hecho con HTML, CSS, Tailwind y Astro.",
+        "en": "Personal portfolio made with HTML, CSS, Tailwind, and Astro."
+      },
+      "highlights": {
+        "es": "['Buenos Estilos', 'Multidioma', 'JavaScript & TypeScript']",
+        "en": "['Good Styles', 'Multilanguage', 'JavaScript & TypeScript']"
+      },
       "url": "https://adventjs.dev"
     }
   ]
