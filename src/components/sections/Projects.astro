@@ -13,8 +13,9 @@ const i18n = getI18N({ currentLocale });
   <ul>
     {
       projects.map(({ url, descriptions, name, isActive, highlights }) => {
-        const description = descriptions[currentLocale];
-        const highlight = highlights[currentLocale];
+        const description =
+          descriptions[currentLocale as keyof typeof descriptions];
+        const highlight = highlights[currentLocale as keyof typeof highlights];
 
         return (
           <li>
@@ -34,8 +35,8 @@ const i18n = getI18N({ currentLocale });
                 <p>{description}</p>
               </header>
               <footer>
-                {highlight.map((item, index) => (
-                  <span key={index}>{item}</span>
+                {highlight.map((item) => (
+                  <span>{item}</span>
                 ))}
               </footer>
             </article>
