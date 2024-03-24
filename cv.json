@@ -195,8 +195,8 @@
         "en": "Recreation of the official Tesla page."
       },
       "highlights": {
-        "es": ["Elige tu propia aventura", "Relanding"],
-        "en": ["Choose your own adventure", "Relanding"]
+        "es": ["Elige tu propia aventura", "Relanding", "Animaciones"],
+        "en": ["Choose your own adventure", "Relanding", "Animations"]
       },
       "url": "https://teslarelanding.netlify.app/"
     },
@@ -208,8 +208,8 @@
         "en": "Personal portfolio made with HTML, CSS, Tailwind, and Astro."
       },
       "highlights": {
-        "es": ["Buenos Estilos", "Multidioma", "JavaScript & TypeScript"],
-        "en": ["Good Styles", "Multilanguage", "JavaScript & TypeScript"]
+        "es": ["Buenos Estilos", "JavaScript & TypeScript"],
+        "en": ["Good Styles", "JavaScript & TypeScript"]
       },
       "url": "https://adventjs.dev"
     }
